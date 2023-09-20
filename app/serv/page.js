@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <>
       <Header />
-      <h1 className="text-4xl font-semibold bg-teal-100 p-12 text-center">
+      <h1 className="text-4xl text-black font-semibold bg-teal-100 p-12 text-center">
         Services
       </h1>
       <section className="bg-teal-100 grid grid-cols-1 sm:grid-cols-2">
@@ -32,16 +32,25 @@ const Services = () => {
       <section className="grid grid-cols-1 sm:grid-cols-2 gap-4 bg-teal-100">
         <div className="flex justify-center p-6 border border-4 border-solid border-white">
           <div>
-            <h1 className="text-center text-xl font-semibold underline underline-offset-1 mb-2">
+            <h1 className="text-center text-xl text-black font-semibold underline underline-offset-1 mb-2">
               Ecommerce
             </h1>
+            <p className="text-gray-500 text-center mb-4">
+              Our Ecommerce Page is designed for online businesses and includes
+              the following features:
+            </p>
             <ul className="list-disc list-inside text-left">
               <li className="text-gray-500">Standard pricing</li>
               <li className="text-gray-500">Weekly consulting</li>
-              <li className="text-gray-500">Stripe</li>
-              <li className="text-gray-500">Square</li>
-              <li className="text-gray-500">Admin page</li>
+              <li className="text-gray-500">
+                {" "}
+                Payment processing with Stripe and Square
+              </li>
               <li className="text-gray-500">Email subscriptions</li>
+              <li className="text-gray-500">User-friendly Stripe payments</li>
+              <li className="text-gray-500">
+                Admin page for managing your store{" "}
+              </li>
             </ul>
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-8">
               Contact For details
@@ -51,16 +60,24 @@ const Services = () => {
 
         <div className="flex justify-center p-6 border border-4 border-solid border-white">
           <div>
-            <h1 className="text-center text-xl font-semibold mb-2 underline underline-offset-1">
+            <h1 className="text-center text-black text-xl font-semibold mb-2 underline underline-offset-1">
               Blog
             </h1>
+            <p className="text-gray-500 text-center mb-4">
+              Our Blog Page is ideal for sharing your thoughts and insights with
+              your audience. It offers the following features:
+            </p>
             <ul className="list-disc list-inside text-left">
               <li className="text-gray-500">Standard pricing</li>
               <li className="text-gray-500">Weekly consulting</li>
-              <li className="text-gray-500">Stripe</li>
-              <li className="text-gray-500">Square</li>
-              <li className="text-gray-500">Admin page</li>
-              <li className="text-gray-500">Email subscriptions</li>
+
+              <li className="text-gray-500">
+                {" "}
+                Email subscriptions for marketing
+              </li>
+              <li className="text-gray-500">User-friendly Stripe payments</li>
+              <li className="text-gray-500">Simple and intuitive admin page</li>
+              <li className="text-gray-500">Email subscriptions for readers</li>
             </ul>
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-8">
               Contact For details

@@ -30,12 +30,13 @@ export default function Home() {
           </ul>
         </div>
       </section>
+
       <section>
         <div className="bg-teal-100 py-10 border border-6 border-solid border-white text-center">
           <h2 className="text-black-500 text-4xl p-8 text-gray-600 font-semibold">
             Skills and Frameworks
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-5 gap-4 pl-24">
+          <div className="grid grid-cols-1 sm:grid-cols-5 gap-4 mx-auto max-w-screen-xl">
             <ul className="list-disc list-inside text-left">
               <li className="text-gray-600">Javascript</li>
               <li className="text-gray-600">Ruby</li>
@@ -70,58 +71,45 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section>
-        <div>
-          <div className="py-10 bg-teal-100 text-center">
-            <h2 className="text-black-500 text-4xl p-8 text-gray-600 font-semibold">
-              Education 🎓
-            </h2>
-            <div className="max-w-3xl bg-teal-100 mx-auto flex flex-wrap justify-center items-start">
-              <div className="w-full sm:w-1/2 mb-8 p-4">
-                <h3 className="text-black-500 text-xl p-8 text-gray-600 text-left font-semibold">
-                  Learn Academy
-                </h3>
-                <p className="text-gray-600 text-left">
-                  I graduated from Learn Academy on June 2nd, 2023, and am a
-                  full-stack developer. During my time at Learn Academy, I
-                  acquired proficiency in JavaScript, Ruby, and Postgres. This
-                  full-time boot camp, conducted from Monday through Friday,
-                  equipped me with the fundamental programming skills and the
-                  ability to work in a development environment.
-                </p>
 
-                <h3 className="text-black-500 text-left text-xl p-8 text-gray-600 font-semibold">
-                  U.S. Army School of Medicine
-                </h3>
-                <p className="text-gray-600 text-left">
-                  I graduated from the Army's School of Medicine in 2017,
-                  specializing as a Combat Medic. During my time there, I
-                  acquired expertise in Combat Casualty Care and civilian EMT
-                  medicine. I learned the importance of proper preparation,
-                  which is critical in preventing poor performance. As a Combat
-                  Medic, I was entrusted with the well-being of my patients and
-                  their injuries, often responsible for overseeing the medical
-                  care of 100 to 150 Service members.
-                </p>
-              </div>
-            </div>
-            <br className="border-dotted border-t-2 border-gray-600" />
-
-            <div className="w-full sm:w-1/2 mb-8 p-4 mx-auto">
-              <h3 className="text-black-500 text-center text-xl p-8 text-gray-600 font-semibold">
-                Certifications
-              </h3>
-              <p className="text-gray-600 text-left">
-                - AWS Certified Cloud Practitioner
-              </p>
-              <p className="text-gray-600 text-left">
-                - AWS Certified Solutions Architect - Associate
-              </p>
-              <p className="text-gray-600 text-left">- CompTia Security+</p>
-            </div>
+      <div className="py-10 bg-teal-100 text-center">
+        <h2 className="text-black-500 text-4xl p-8 text-gray-600 font-semibold">
+          Education 🎓
+        </h2>
+        <section className="bg-teal-100 grid grid-cols-1 sm:grid-cols-2">
+          <div className="justify-center sm:pt-16 sm:pl-16 p-16">
+            <h3 className="text-xl font-semibold text-gray-600">
+              Learn Academy
+            </h3>
+            <p className="text-gray-500">
+              I graduated from Learn Academy on June 2nd, 2023, and am a
+              full-stack developer. During my time at Learn Academy, I acquired
+              proficiency in JavaScript, Ruby, and Postgres. This full-time boot
+              camp, conducted from Monday through Friday, equipped me with the
+              fundamental programming skills and the ability to work in a
+              development environment.
+            </p>
+            <h3 className="text-black-500 text-center text-xl p-8 text-gray-600 font-semibold">
+              Certifications
+            </h3>
+            <p className="text-gray-600 text-center">
+              AWS Certified Cloud Practitioner
+            </p>
+            <p className="text-gray-600 text-center">
+              AWS Certified Solutions Architect - Associate
+            </p>
+            <p className="text-gray-600 text-center">CompTia Security+</p>
           </div>
-        </div>
-      </section>
+
+          <div className="grid justify-items-center p-6 opacity-90">
+            <Image
+              src="https://jacob-portfolio.s3.amazonaws.com/programmer-for.avif"
+              width={600}
+              height={400}
+            />
+          </div>
+        </section>
+      </div>
 
       <Footer />
     </>
