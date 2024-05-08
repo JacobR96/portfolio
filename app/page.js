@@ -18,7 +18,7 @@ export default function Home() {
         </div>
         <div className="bg-teal-100 py-10 text-center">
           <ul className="list-disc list-inside text-left">
-            <li className="text-gray-600">Fort Novosel, Alabama</li>
+            <li className="text-gray-600">Tampa, Florida</li>
             <li className="text-gray-600">804-244-8407</li>
             <li className="text-gray-600">Jrosswalks@gmail.com</li>
             <li className="text-gray-600">
@@ -43,6 +43,10 @@ export default function Home() {
               <li className="text-gray-600">Mysql</li>
               <li className="text-gray-600">CSS</li>
               <li className="text-gray-600">HTML</li>
+              <li className="text-gray-600">Python</li>
+              <li className="text-gray-600">FastApi</li>
+              <li className="text-gray-600">C#</li>
+              <li className="text-gray-600">.Net Core 6</li>
             </ul>
 
             <ul className="list-disc list-inside text-left">
@@ -50,6 +54,13 @@ export default function Home() {
               <li className="text-gray-600">Node.js</li>
               <li className="text-gray-600">Postman</li>
               <li className="text-gray-600">Ruby on Rails</li>
+              <li className="text-gray-600">Vue.js</li>
+              <li className="text-gray-600">Angular</li>
+              <li className="text-gray-600">Typescript</li>
+              <li className="text-gray-600">Azure Services</li>
+              <li className="text-gray-600">Vitesting</li>
+              <li className="text-gray-600">VueTesting Utils</li>
+              <li className="text-gray-600">Redux</li>
             </ul>
 
             <ul className="list-disc list-inside text-left">
@@ -59,14 +70,10 @@ export default function Home() {
                 Databases (MySQL, Postgres, DynamoDB)
               </li>
               <li className="text-gray-600">AWS Services</li>
-            </ul>
-
-            <ul className="list-disc list-inside text-left">
               <li className="text-gray-600">Jest testing</li>
               <li className="text-gray-600">VScode</li>
               <li className="text-gray-600">Jenkins</li>
               <li className="text-gray-600">Jira</li>
-              <li className="text-gray-600">SharePoint</li>
             </ul>
           </div>
         </div>

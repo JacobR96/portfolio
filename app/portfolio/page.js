@@ -118,6 +118,56 @@ const Portfolio = () => {
               </h2>
             </div>
           </div>
+          <div className="w-full sm:w-1/2 p-6">
+            <div className="my-6 border border-solid border-gray-500 p-4 h-full">
+              <div className="flex items-center justify-center h-60">
+                <Image
+                  src="https://jacob-portfolio.s3.amazonaws.com/Screenshot+2024-05-08+at+17.48.41.png"
+                  alt="photo"
+                  width={400}
+                  height={400}
+                />
+              </div>
+              <h2 className="text-lg mt-2 text-gray-600">
+                This project is a for a client that I am currently working on.
+                It is a full stack application that uses Next.js, Node, and
+                Postgres.
+              </h2>
+              <h2 className="text-lg mt-2">
+                <Link
+                  href="https://bloomsdeliveries.com"
+                  className="text-blue-500 hover:underline"
+                >
+                  Click Here to see the site
+                </Link>
+              </h2>
+            </div>
+          </div>
+          <div className="w-full sm:w-1/2 p-6">
+            <div className="my-6 border border-solid border-gray-500 p-4 h-full">
+              <div className="flex items-center justify-center h-60">
+                <Image
+                  src="https://jacob-portfolio.s3.amazonaws.com/Screenshot+2024-05-08+at+17.51.19.png"
+                  alt="photo"
+                  width={400}
+                  height={400}
+                />
+              </div>
+              <h2 className="text-lg mt-2 text-gray-600">
+                This project is a for a client that I am currently working on.
+                It is a full stack application that uses Next.js, Node, and
+                Postgres.
+              </h2>
+              <h2 className="text-lg mt-2">
+                <Link
+                  href="https://paw-trainers.vercel.app/"
+                  className="text-blue-500 hover:underline"
+                >
+                  Click Here to see the site
+                </Link>
+              </h2>
+            </div>
+          </div>
         </section>
       </div>
 
